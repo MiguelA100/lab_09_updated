@@ -7,3 +7,7 @@ class NewPlaceForm(forms.ModelForm):
     class Meta:
         model = Place
         fields = ('name', 'visited')
+
+
+class TripReviewForm:
+    pass
